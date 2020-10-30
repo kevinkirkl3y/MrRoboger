@@ -34,19 +34,13 @@ $(document).ready(function(){
     let input = parseInt($("input#original").val());
     let output = numBumbler(input)
     $("#outputRange").append("<li>" + output.join(", ") + "</li>")
-    $("#resultDisplay,#countdown ").fadeIn();
-  });
-  $("#countdown").onclick(function(event){
-    event.preventDefault();
-    let outputReverse = numBumbler(input).reverse();
-    $("#countdownRange").append("<li>" + outputReverse.join(", ") + "</li>");
-    $("#reversedResults").fadeIn();
-  });
+    $("#resultDisplay,#countdown,.countdown").fadeIn();
     
-  //Reverse aka countdown function
-  
-  
-  
-  
-  
-})
+    $("#countdown").click(function(){
+      let outputReverse = numBumbler(input).reverse();
+      $("#countdownRange").append("<li>" + outputReverse.join(", ") + "</li>");
+      $("#reversedResults").fadeIn();
+      console.log(outputReverse)
+    });
+  });
+});

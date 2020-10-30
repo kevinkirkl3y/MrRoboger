@@ -1,11 +1,11 @@
-# Mr Roboger's Number Bumbler
+# Mr Robogers' Number Bumbler
 
 #### _JQuery, JavaScript, For Loop and Array Practice for Epicodus 10.23.2020_
 
 #### by _**Kevin Kirkley**_
 
 ## Description
-
+This program takes a numerical input from the user, creates an array with a range from 0 to the number the individual has input and replaces 1, 2, 3 with 'Beep!', 'Boop!' and 'Won't you be my neighbor?' respectively. It then displays this array along with an image of Mr. Robogers with Mr. Rogers. Further, after clicking the 'Countdown' button it will reverse the array and display the countdown from the input number as well as the same image flipped. 
 
 ## Specifications
 

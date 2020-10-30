@@ -31,6 +31,6 @@ img {
 #picture {
   background-color: #ff000081;
 }
-#countdown {
+#countdown, .countdown {
   display: none;
 }
