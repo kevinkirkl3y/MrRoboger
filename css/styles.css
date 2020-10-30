@@ -19,7 +19,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-#resultDisplay {
+#resultDisplay, #reversedResults{
   display: none;
 }
 .col-md-6 {
@@ -30,4 +30,7 @@ img {
 }
 #picture {
   background-color: #ff000081;
+}
+#countdown {
+  display: none;
 }
