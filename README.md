@@ -9,6 +9,14 @@
 
 ## Specifications
 
+| Describe: numBumble() | Input | Output |
+| :-----------------------------------| :------------- | :------------- |
+| The program will take a number from the user and return a range of numbers from zero to the user input. | 5 | 0,1,2,3,4,5 |
+|The program will recognize numbers within range containing a 1 and replace all applicable digits with "Beep!" | 5| 0,Beep!,2,3,4,5 |
+|The program will recognize numbers within range containing a 2 and replace all applicable digits with "Boop!" | 5 | 0,Beep!,Boop!,3,4,5 |
+|The program will recognize numbers within range containing a 3 and replace all applicable digits with "Won't you be by neighbor?" | 5 | 0,Beep!,Boop!,Won't you be my neighbor?,4,5 |
+|In numbers that contain 1 and 2 the actions of 2 will override that of 1. | 12 | 0,Beep!,Boop!, Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop! |
+|In numbers that contain 1, 2 and 3 the action of 3 will override those of 1 and 2. | 13 | 0,Beep!,Boop!, Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor? |
 
 
 
@@ -32,7 +40,7 @@ View my live website here:
 
 ## Known Bugs
 
-_
+
 
 ## Support and contact detail
 
