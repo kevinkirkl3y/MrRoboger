@@ -11,9 +11,18 @@ let numBumbler = function(input) {
     numRange.push(i.toString());
   };
   //loops through numRange to identify numbers, because we want 3 to override 2 and 1 respectively we want it to resort to doing that first. Because we are trying to transform an array into a new array and we are using strings a map loop is our best option. 
-  let numBumblerS2 = numRange.map(function(numRange))
-  }
-  console.log(numRange);
+  let numBumblerS2 = numRange.map(function(numRange) {
+    if (numRange.includes("3")){
+      return numRange = wontYa;
+    } else if(numRange.includes("2")) {
+      return numRange = boop; 
+    }else if(numRange.includes("1")){
+      return numRange = beep;
+    }else {
+      return numRange;
+    };
+  });
+  console.log(numBumblerS2);
 
 };
 
