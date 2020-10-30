@@ -5,7 +5,7 @@
 #### by _**Kevin Kirkley**_
 
 ## Description
-This program takes a numerical input from the user, creates an array with a range from 0 to the number the individual has input and replaces 1, 2, 3 with 'Beep!', 'Boop!' and 'Won't you be my neighbor?' respectively. It then displays this array along with an image of Mr. Robogers with Mr. Rogers. Further, after clicking the 'Countdown' button it will reverse the array and display the countdown from the input number as well as the same image flipped. 
+This robot-themed program takes a numerical input from the user, creates an array with a range from 0 to the number the individual has input and replaces 1, 2, 3 with 'Beep!', 'Boop!' and 'Won't you be my neighbor?' respectively. It then displays this array along with an image of Mr. Robogers with Mr. Rogers. Further, after clicking the 'Countdown' button it will reverse the array and display the countdown from the input number as well as the same image flipped. 
 
 ## Specifications
 
@@ -41,7 +41,7 @@ View my live website here:
 ## Known Bugs
 
 * When user has inputed, submitted and then counted down. If they input another number to create new list and countdown that number as well, the countdown section will display the previous entries and then the new entry. Currently trying to fix this bug. 
-* _Fixed this bug by removing need for another variable. Created new bug where if new input is given before refresh it will continue to flip the original input's response indefinitely_
+* _Fixed this bug by removing need for another variable. Created new bug where if new input is given before refresh it will continue to flip the original input's response indefinitely._
 * _To provide a work around for these issues I used a refresh button that appears after the 'Countdown' button is clicked while making the input and 'Countdown' button disapear. This will force the user to refresh the page after every entry._ 10.30.2020
 
 

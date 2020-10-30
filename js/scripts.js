@@ -23,9 +23,6 @@ let numBumbler = function(input) {
   return numBumblerS2
 };
 
-
-
-
 //UI Logic
 
 $(document).ready(function(){
