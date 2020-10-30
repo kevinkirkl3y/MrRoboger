@@ -34,6 +34,7 @@ $(document).ready(function(){
     let input = parseInt($("input#original").val());
     let output = numBumbler(input)
     $("#outputRange").append("<li>" + output + "</li>")
+    $("#resultDisplay").fadeIn();
   });
   
   

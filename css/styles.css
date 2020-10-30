@@ -1,5 +1,10 @@
 body {
-  background-image: ;
+  background: rgb(0,240,173);
+  background: linear-gradient(198deg, rgba(0,240,173,0.5399515738498789) 0%, rgba(234,229,119,0.6198547215496368) 100%);
+}
+.jumbotron {
+  background: rgb(0,126,242);
+  background: linear-gradient(167deg, rgba(0,126,242,0.6416464891041163) 0%, rgba(253,29,29,0.4261501210653753) 50%, rgba(255,255,255,0.5665859564164648) 100%);
 }
 #number {
   object-position: center;
@@ -13,4 +18,16 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#resultDisplay {
+  display: none;
+}
+.col-md-6 {
+  float: left;
+}
+#response {
+  background-color: #007df283;
+}
+#picture {
+  background-color: #ff000081;
 }
