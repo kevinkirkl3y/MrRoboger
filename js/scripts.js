@@ -37,10 +37,12 @@ $(document).ready(function(){
     $("#resultDisplay,#countdown,.countdown").fadeIn();
     
     $("#countdown").click(function(){
-      let outputReverse = numBumbler(input).reverse();
-      $("#countdownRange").append("<li>" + outputReverse.join(", ") + "</li>");
-      $("#reversedResults").fadeIn();
-      console.log(outputReverse)
+      $("#countdownRange").append("<li>" + output.reverse().join(", ") + "</li>");
+      $("#reversedResults, #tryAgain").fadeIn();
+      $("#number, .countdown, #countdown").fadeOut();
     });
+  });
+  $("#tryAgain").click(function(){
+    location.reload(true);
   });
 });

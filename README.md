@@ -40,6 +40,9 @@ View my live website here:
 
 ## Known Bugs
 
+* When user has inputed, submitted and then counted down. If they input another number to create new list and countdown that number as well, the countdown section will display the previous entries and then the new entry. Currently trying to fix this bug. 
+* _Fixed this bug by removing need for another variable. Created new bug where if new input is given before refresh it will continue to flip the original input's response indefinitely_
+* _To provide a work around for these issues I used a refresh button that appears after the 'Countdown' button is clicked while making the input and 'Countdown' button disapear. This will force the user to refresh the page after every entry._ 10.30.2020
 
 
 ## Support and contact detail
@@ -56,6 +59,7 @@ _Contact Kevin Kirkley at [kevinmkirkley@gmail.com](mailto:kevinmkirkley@gmail.c
 * _JQuery_
 * _JavaScript_
 * _VSCode_
+* _Google Fonts_
 
 ### License
 

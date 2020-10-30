@@ -5,12 +5,20 @@ body {
 .jumbotron {
   background: rgb(0,126,242);
   background: linear-gradient(167deg, rgba(0,126,242,0.6416464891041163) 0%, rgba(253,29,29,0.4261501210653753) 50%, rgba(255,255,255,0.5665859564164648) 100%);
+  font-family: Audiowide;
+  font-weight: bold;
 }
-#number {
+h4 {
+  font-family: Audiowide;
+}
+.number {
   object-position: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.countdown, #countdown, #formLabel, #tryAgain, .card-text, #original{
+  font-family: 'Orbitron', sans-serif;
 }
 img {
   height: 350px;
@@ -19,7 +27,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-#resultDisplay, #reversedResults{
+#resultDisplay, #reversedResults, #countdown, .countdown, #tryAgain {
   display: none;
 }
 .col-md-6 {
@@ -30,7 +38,4 @@ img {
 }
 #picture {
   background-color: #ff000081;
-}
-#countdown, .countdown {
-  display: none;
 }
