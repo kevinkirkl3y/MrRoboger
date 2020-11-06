@@ -1,10 +1,9 @@
 // Business Logic
 
-const beep = "Beep!"
-const boop = "Boop!"
-const wontYa = "Won't you be my neighbor?"
-
 let numBumbler = function(input) {
+  const beep = "Beep!"
+  const boop = "Boop!"
+  const wontYa = "Won't you be my neighbor?"
   let numRange = [];
   for (let i = 0; i <= input; i++){
     numRange.push(i.toString());
